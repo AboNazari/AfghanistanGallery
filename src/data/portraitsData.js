@@ -1,0 +1,356 @@
+import AfghanCulture from "../assets/portraits/Afghan Culture.jpg";
+import AfghanGame from "../assets/portraits/Afghan Game.jpg";
+import AfghanistanCloud from "../assets/portraits/Afghanistan CLoud.jpg";
+import AfghanistanNature from "../assets/portraits/Afghanistan Nature.jpg";
+import BabaMountains from "../assets/portraits/Baba Mountains.jpg";
+import BadakhshanNature from "../assets/portraits/badakhshan Nature.jpg";
+import Bakery from "../assets/portraits/Bakery.jpg";
+import Bamiyan from "../assets/portraits/bamiyan.jpg";
+import BamyanBudhaStatue from "../assets/portraits/Bamyan Budha Statue.jpg";
+import BandAmir from "../assets/portraits/Band Amir.jpg";
+import BudhaBamyan from "../assets/portraits/Budha Bamyan.jpg";
+import HinduKush from "../assets/portraits/Hindu Kush.jpg";
+import KandaharProvince from "../assets/portraits/Kandahar Province.jpg";
+import Khostbeauty from "../assets/portraits/Khost beauty.jpg";
+import MazarSharif from "../assets/portraits/Mazar Sharif.jpg";
+import Minarjam from "../assets/portraits/Minar jam.jpg";
+import Nomads from "../assets/portraits/Nomads.jpg";
+import WakhanCorridor from "../assets/portraits/Wakhan Corridor.jpg";
+import Food from "../assets/portraits/Food.jpg";
+import Couple from "../assets/portraits/couple.jpg";
+import Food2 from "../assets/portraits/Food2.jpg";
+import AfghanDress from "../assets/portraits/Afghan dress.jpg";
+
+export const PortraitsData = [
+  {
+    _id: 1,
+    title: "Afghanistan Culture",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: AfghanCulture,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "AfghanCulture",
+    description:
+      "Afghan Culture is a very authentic and especially unique in its own way.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 2,
+    title: "Afghanistan Culture",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: AfghanGame,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "AfghanGame",
+    description:
+      "Excavations of prehistoric sites suggest that humans were living in what is now Afghanistan at least 50,000 years ago, and that farming communities in the area were among the earliest in the world.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 20,
+    title: "Afghanistan Dress",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: AfghanDress,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "AfghanDress",
+    description:
+      "Clothing in Afghanistan consists of the traditional style of clothing worn in Afghanistan. The various cultural exchanges in the nation's history have influenced the styles and flavors of contemporary Afghan designs.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 21,
+    title: "Traditional Dress",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Couple,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Traditional Dress",
+    description:
+      "The national dress is the fusion of different ethnic groups in Afghanistan. [2] The styles can be subdivided into the various ethnicities with unique elements for each. Traditional dresses for both men and women tend to cover the whole body, with trousers gathered at the waist, a loose shirt or dress, and some form of head covering.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 22,
+    title: "Traditional Food",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Food,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Traditional Food",
+    description:
+      "Afghanistan’s cuisine is a rich melange of local crops and livestock. Many of us aren’t as aware of Afghan food as Mexican or Italian fare, which is a shame. Afghan recipes use wheat, fruit, yogurt, and meat to create filling, delicious meals. ",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 23,
+    title: "Afghanistan Traditional Food",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Food2,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Afghanistan Traditional Food",
+    description:
+      "Rice is foundational to much of Afghanistan’s food. When using meat, the fare often relies on lamb. An excellent Afghan menu borrows the best elements from various cultures, such as Indian, Chinese, Iranian, and Turkish cuisine. ",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 3,
+    title: "Afghanistan",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: AfghanistanCloud,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "AfghanistanCloud",
+    description:
+      "The modern state of Afghanistan began with the Durrani dynasty in the 18th century, with the Durrani Afghan Empire being formed by Ahmad Shah Durrani. ",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 4,
+    title: "Afghanistan Nature",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: AfghanistanNature,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "AfghanistanNature",
+    description:
+      "Tall, forbidding mountains and dry deserts cover most of the landscape of Afghanistan. The jagged mountain peaks are treacherous, and are snow covered for most of the year. Many Afghans live in the fertile valleys between the mountains and grow their crops and tend to their animals.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 5,
+    title: "Baba Mountains",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: BabaMountains,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "BabaMountains",
+    description:
+      "Koh-e-Baba mountain, located south of Bamyan city, is an extension of the Hindu Kush range. The highest peak, called Shah Foladi, that rises 5,000 meters above sea level. There are several natural lakes on the top of Koh-e-Baba, attracting many sightseers and hikers every year.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 6,
+    title: "Badakhshan Nature",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: BadakhshanNature,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "BadakhshanNature",
+    description:
+      "Badakhshan Province is one of the 34 provinces of Afghanistan, located in the northeastern part of the country. It is bordered by Tajikistan's Gorno-Badakhshan in the north and the Pakistani regions of Lower and Upper Chitral and Gilgit-Baltistan in the southeast.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 7,
+    title: "Bakery",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Bakery,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Bakery",
+    description:
+      "Afghan bread or Nan-i-Afghani is the national bread of Afghanistan. It is a flatbread and can be oval or rectangular. It is baked in a tandoor, the primary cooking equipment of the sub-continent region",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 8,
+    title: "Bamiyan",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Bamiyan,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Bamiyan",
+    description:
+      "Bamyan or Bamyan Valley; also spelled Bamiyan or Bamian is the capital of Bamyan Province in central Afghanistan. Its population of approximately 70,000 people makes it the largest city in Hazaristan. Bamyan is at an altitude of about 8,366 feet above sea level. The Bamyan Airport is located in the middle of the city.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 9,
+    title: "The Buddha Statue",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: BamyanBudhaStatue,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "BamyanBudhaStatue",
+    description:
+      "The Buddhas of Bamiyan were two 6th-century monumental statues carved into the side of a cliff in the Bamyan valley of Hazarajat region in central Afghanistan, 130 kilometres northwest of Kabul at an elevation of 2,500 metres.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+
+  {
+    _id: 11,
+    title: "Band e Amir",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: BandAmir,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "BandAmir",
+    description:
+      "Band-e Amir National Park Afghanistan established its first national park on April 22, 2009, to promote and protect the natural beauty of a series of intensely blue lakes created by natural dams high in the Hindu Kush. Band-e-Amir is a chain of six lakes in the mountainous desert of central Afghanistan.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 12,
+    title: "Buddha Bamyan",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: BudhaBamyan,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Budha Bamyan",
+    description:
+      " On orders from Taliban founder Mullah Omar, the statues were destroyed in March 2001,[9] after the Taliban government declared that they were idols.[10] International and local opinion strongly condemned the destruction of the Buddhas. ",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 13,
+    title: "HinduKush Mountains",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: HinduKush,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "HinduKush",
+    description:
+      "The Hindu Kush is an 800-kilometre-long mountain range in Central and South Asia to the west of the Himalayas. It stretches from central and western Afghanistan into northwestern Pakistan and far southeastern Tajikistan.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 14,
+    title: "Kandahar",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: KandaharProvince,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Kandahar",
+    description:
+      "Kandahar is a city in Afghanistan, located in the south of the country on the Arghandab River, at an elevation of 1,010 m. It is Afghanistan's second largest city after Kabul, with a population of about 614,118.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 15,
+    title: "Khost's beauty",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Khostbeauty,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Khost beauty",
+    description:
+      "Khōst is the capital of Khost Province in Afghanistan. It is the largest city in the southeastern part of the country, and also the largest in the region of Loya Paktia. To the south and east of Khost lie Waziristan and Kurram in Pakistan. Khost is the home of Shaikh Zayed University",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 16,
+    title: "Mazar e Sharif",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: MazarSharif,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "MazarSharif",
+    description:
+      "Mazār-i-Sharīf, also called Mazār-e Sharīf, or just Mazār, is the fourth-largest city of Afghanistan, with a population estimate of 1,000,000 people.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 17,
+    title: "Minar jam",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Minarjam,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Minarjam",
+    description:
+      "The Minaret of Jam is a UNESCO World Heritage Site in western Afghanistan. It is located in a remote and nearly inaccessible region of the Shahrak District, Ghor Province, next to the Hari River.",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 18,
+    title: "Nomads",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: Nomads,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "Nomads",
+    description:
+      "Kochis or Kuchis (Pashto: کوچۍ Kuchis) are pastoral nomads belonging primarily to the Ghilji Pashtuns. In the southern, western and northern regions of Afghanistan they are also referred to at times as maldar (Pashto: مالدار maldar, 'herd-owner').",
+    location: "Afghanistan",
+    type: "portrait",
+  },
+  {
+    _id: 19,
+    title: "Wakhan Corridor",
+    producer: "Afghanistan",
+    shortDesc: "",
+    img: WakhanCorridor,
+    date: "2022-12-01",
+    category: "portrait",
+    openModel: false,
+    modalId: "WakhanCorridor",
+    description:
+      "The Wakhan Corridor is a narrow strip of territory in Afghanistan, extending to China and separating the Gorno-Badakhshan Autonomous Region of Tajikistan from the Gilgit-Baltistan region of Pakistan-administered Kashmir. From this high mountain valley the Panj and Pamir rivers emerge and form the Amu Darya. ",
+    location: "WakhanCorridor",
+    type: "portrait",
+  },
+];
